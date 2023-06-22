@@ -20,16 +20,18 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="http://localhost:3001/assets/info4.jpeg"
+        src="http://localhost:3001/assets/info4.jpg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>
-        <Typography color={main}>MikaCosmetics</Typography>
-        <Typography color={medium}>mikacosmetics.com</Typography>
+        <Typography color={main}>MusicLife</Typography>
+        <Typography color={medium}>rock.ma</Typography>
       </FlexBetween>
       <Typography color={medium} m="0.5rem 0">
-        Your pathway to stunning and immaculate beauty and made sure your skin
-        is exfoliating skin and shining like light.
+      Are you ready to ignite your passion for music and embrace the 
+      soulful melodies of the guitar? Look no further! Introducing our 
+      extraordinary guitar, the perfect instrument to embark on an 
+      unforgettable musical journey.
       </Typography>
     </WidgetWrapper>
   );

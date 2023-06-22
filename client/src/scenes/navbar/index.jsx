@@ -47,7 +47,7 @@ const Navbar = () => {
         <Typography
           fontWeight="bold"
           fontSize="clamp(1rem, 2rem, 2.25rem)"
-          color="primary"
+          color={theme.palette.mode === 'dark' ? '#FFF' : 'primary'}
           onClick={() => navigate("/home")}
           sx={{
             "&:hover": {
@@ -56,7 +56,7 @@ const Navbar = () => {
             },
           }}
         >
-          Sociopedia
+          Social App
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween

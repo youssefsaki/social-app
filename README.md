@@ -29,9 +29,9 @@ This App offers the following features:
 To install and run the social network application locally, follow these steps: 
 
 1. Clone The repository from GitHub:
-git clone https://github.com/yourusername/social-network-app.git
+[git clone https://github.com/youssefsaki/social-app.git]
 2. Navigate to the project directory:
-cd social-network-app
+cd social-app
 3. Install the dependencies:
 npm install
 4. Configure the application by updating the necessary environment variables or configuration files.
